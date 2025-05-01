@@ -1,0 +1,38 @@
+.recommended-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.scrollable-row {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  padding-bottom: 20px;
+  scroll-snap-type: x mandatory;
+}
+
+.show-item {
+  flex: 0 0 auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  scroll-snap-align: center;
+  text-align: center;
+}
+
+.show-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.show-item h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.show-item p {
+  font-size: 14px;
+  color: #555;
+}

@@ -1,0 +1,42 @@
+.navbar {
+  background-color: white;
+  padding: 7px 30px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li:hover {
+  color: red; /* Change text color on hover */
+  text-decoration: underline; /* Optional: adds underline */
+  transform: scale(1.1); /* Slight zoom effect */
+  transition: all 0.3s ease; /* Smooth animation */
+}
+
+
+.navbar li {
+  font-size: 17px;
+  cursor: pointer;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .navbar li {
+    font-size: 14px;
+  }
+}

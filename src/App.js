@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Banner from './components/Banner';
+import Header from './frontend/Header';
+import Navbar from './frontend/Navbar';
+import Banner from './frontend/Banner';
 import './App.css';
-import RecommendedShows from './components/RecommendedShows';
-import UpcomingEvents from './components/UpcomingEvents';
+import RecommendedShows from './frontend/RecommendedShows';
+import UpcomingEvents from './frontend/UpcomingEvents';
 
 function App() {
   return (
